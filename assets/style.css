@@ -98,7 +98,7 @@ nav {
 .container-footer{
     display: flex;
     flex-direction: column;
-    background-image:url(../img/marita-kavelashvili-ugnrXk1129g-unsplash.jpg) ;
+    background-color: #252525;
     background-size: cover;
 }
 .container-footer > .content-footer{
@@ -111,5 +111,36 @@ nav {
 
 .container-footer > .content-footer > .text{
     width: 50%;
-    color: #252525;
 }
+
+.container-footer > .content-footer > .text > ul{
+    width: 50%;
+}
+.container-footer > .content-footer > .text li{
+    list-style: none;
+}
+
+/* fitur */
+
+.container-dropdown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    box-shadow: #25252549 0 0 10px 10px;
+}
+
+.container-dropdown > .wrapper{
+    padding: 30px;
+    overflow: hidden;
+    height: 50px;
+    box-shadow: #25252511 0 -10px 10px 5px inset;
+    margin-bottom: 10px;
+}
+.container-dropdown > button{
+    width: 50px;
+}
+
+
+/* fiturend */
