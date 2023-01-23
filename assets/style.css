@@ -137,6 +137,7 @@ nav {
     height: 50px;
     box-shadow: #25252511 0 -10px 10px 5px inset;
     margin-bottom: 10px;
+    transition: height .2s;
 }
 .container-dropdown > button{
     width: 50px;
