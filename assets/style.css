@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+
 *,
 html {
     padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Kumbh Sans', sans-serif;
 
 }
 
@@ -71,6 +74,8 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative ;
+    bottom: 100px;
 }
 .content2{
     display: flex;
@@ -180,15 +185,29 @@ nav {
     flex-direction: row;
     width: 50%;
     margin: 0 20px;
+    align-items: center;
+    
+}
+.content1 > .desk > .detail > .content-bottom{
+    display: inherit;
+    flex-direction: row;
+}
+.content1 > .desk > .detail > .content-bottom .section{
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin: 0 20px;
 }
 
 .content1 > .desk > .detail img{
     width: 50px;
     height: 50px;
+    margin: 0 30px;
 }
 
 /* shape */
-.custom-shape-divider-bottom-1675055496 {
+.custom-shape-divider-bottom-1675059370 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -198,31 +217,15 @@ nav {
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1675055496 svg {
+.custom-shape-divider-bottom-1675059370 svg {
     position: relative;
     display: block;
-    width: calc(141% + 1.3px);
-    height: 234px;
+    width: calc(139% + 1.3px);
+    height: 302px;
 }
 
-.custom-shape-divider-bottom-1675055496 .shape-fill {
+.custom-shape-divider-bottom-1675059370 .shape-fill {
     fill: #F5F5F5;
-}
-
-/** For tablet devices **/
-@media (min-width: 768px) and (max-width: 1023px) {
-    .custom-shape-divider-bottom-1675055496 svg {
-        width: calc(149% + 1.3px);
-        height: 390px;
-    }
-}
-
-/** For mobile devices **/
-@media (max-width: 767px) {
-    .custom-shape-divider-bottom-1675055496 svg {
-        width: calc(141% + 1.3px);
-        height: 124px;
-    }
 }
 /* shapeend */
 
