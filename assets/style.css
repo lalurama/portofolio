@@ -19,6 +19,7 @@ nav {
     top: 20px;
     z-index: 1000;
     box-shadow: #25252513 0px 10px 10px 1px;
+    transition: ease-in-out .5s;
 }
 
 .container-navbar {
@@ -178,26 +179,57 @@ nav {
 .content1 > .desk > .detail > .content-top {
     display: flex;
     flex-direction: row;
-
+    width: 98vw;
+    overflow-x: hidden;
 }
-.content1 > .desk > .detail > .content-top .section {
+.content1 > .desk > .detail > .content-top #serviceL.section {
     display: inherit;
     flex-direction: row;
+    align-items: center;
     width: 50%;
     margin: 0 20px;
+    margin-right:400px ;
     align-items: center;
+    transition: ease-in-out .5s;
+    
+}
+.content1 > .desk > .detail > .content-top #serviceR.section {
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin: 0 20px;
+    margin-left:400px ;
+    align-items: center;
+    transition: ease-in-out .5s;
+
     
 }
 .content1 > .desk > .detail > .content-bottom{
     display: inherit;
     flex-direction: row;
+    width: 98vw;
+    overflow-x: hidden;
 }
-.content1 > .desk > .detail > .content-bottom .section{
+.content1 > .desk > .detail > .content-bottom #serviceL.section{
     display: inherit;
     flex-direction: row;
     align-items: center;
     width: 50%;
     margin: 0 20px;
+    margin-right:400px ;
+    align-items: center;
+    transition: ease-in-out .5s;
+}
+.content1 > .desk > .detail > .content-bottom #serviceR.section{
+    display: inherit;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    margin: 0 20px;
+    margin-left:400px ;
+    align-items: center;
+    transition: ease-in-out .5s;
 }
 
 .content1 > .desk > .detail img{
